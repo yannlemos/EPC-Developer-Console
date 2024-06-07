@@ -8,7 +8,7 @@ At Studio Bravarda, we incorporated [ImGui](https://github.com/ocornut/imgui) in
 
 That's why I'm making making our development console for "Extremely Powerful Capybaras" freely available as an example implementation. This console demonstrates multiple use cases for ImGui and illustrates how a complex, shipped game can work with it.
 
-Important: This is not a plug-and-play example. I am providing the code here as-is, without any refinements, exactly as it was in the shipped game. This general reference is intended for you to utilize in your games, serving as example implementations and architecture to learn from, adapt, and improve. Over our two years of development, we made numerous decisions—some successful from day one, and others that proved less effective over time. So this is not a perfect example of ImGui use, just a very realistic one.
+**IMPORTANT**: This is not a plug-and-play example. I am providing the code here as-is, without any refinements, exactly as it was in the shipped game. This general reference is intended for you to utilize in your games, serving as example implementations and architecture to learn from, adapt, and improve. Over our two years of development, we made numerous decisions—some successful from day one, and others that proved less effective over time. So this is not a perfect example of ImGui use, just a very realistic one.
 
 ## Examples
 This session is WIP, I'll put some detailed explanations of some parts of the code as soon as possible.
