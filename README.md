@@ -8,4 +8,54 @@ At Studio Bravarda, we incorporated [ImGui](https://github.com/ocornut/imgui) in
 
 That's why I'm making making our development console for [Extremely Powerful Capybaras](https://store.steampowered.com/app/2089980/Extremely_Powerful_Capybaras/) freely available as an example implementation. This console demonstrates multiple use cases for ImGui and illustrates how a complex, shipped game can work with it.
 
-**IMPORTANT**: This is not a plug-and-play example. I am providing the code here as-is, without any refinements, exactly as it was in the shipped game. This general reference is intended for you to utilize in your games, serving as example implementations and architecture to learn from, adapt, and improve. Over our two years of development, we made numerous decisions—some successful from day one, and others that proved less effective over time. So this is not a perfect example of ImGui use, just a very realistic one.
+> [!WARNING]
+>  This is not a plug-and-play example. I am providing the code here as-is, without any refinements, exactly as it was in the shipped game. This general reference is intended for you to utilize in your games, serving as example implementations and architecture to learn from, adapt, and improve. Over our two years of development, we made numerous decisions—some successful from day one, and others that proved less effective over time. So this is not a perfect example of ImGui use, just a very realistic one.
+
+# Components
+## Bravo Debug Manager
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+## Main Menu Bar
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Managers
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Shops
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Tools
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Utils
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Views
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Languages
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Imgui
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Help
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+## Monitors
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Player Monitor
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Arena Monitor
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Main Monitor
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Player Monitor
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+### Options Monitor
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
