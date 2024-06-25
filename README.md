@@ -32,7 +32,7 @@ Managers are core systems of the game that need a specific ImGui window for moni
 Here's an example:
 
 **`IManagerDebug`**
-```
+```csharp
 using BravoDebug;
 
 /// <summary>
@@ -67,7 +67,7 @@ public interface IManagerDebug
 }
 ```
 **`MetaProgressionManager.Debug.cs`** (just an example implementation, several managers use this pattern in the game)
-```
+```csharp
 public partial class MetaProgressionManager : IManagerDebug
 {
     public bool EnableDebug
