@@ -118,6 +118,8 @@ This is a very useful pattern to implement debug functionality inside a certain 
 > [!TIP]
 > The EnableDebug field is what renders the "X" button in the window and the "checkmark" in dropdown menus that show the current state of the window. I took some time to understand how this worked in C#, as it's a very C++ way of doing things and is not very well documented elsewhere. I use this implementation a lot because it's very natural for game designers, even though a bit more cumbersome to do in code.
 
+---
+
 ### Shops
 
 The game has four different shops that the player can access. This menu button renders all the shops as a dropdown so you can easily access anywhere in the build while opening their individual debug menus at the same time.
@@ -160,9 +162,7 @@ Monitors are the main menus of the debug console, mostly for monitoring values a
 
 ### Player Monitor
 
-The player monitor keeps track of all the players in the game and exposes dozens of controls to expedite testing. This is extremely important for multiplayer games, as we learned the hard way. Adding and removing players and going to and from certain game states need to be as fast as possible. Foldouts were great to help make good use of space, and Im
-
-Gui really excels in these situations where you need a menu to be responsive from the get-go, because the monitor needs to be visible a lot of the time when checking stat and ability changes in EPC's case.
+The player monitor keeps track of all the players in the game and exposes dozens of controls to expedite testing. This is extremely important for multiplayer games, as we learned the hard way. Adding and removing players and going to and from certain game states need to be as fast as possible. Foldouts were great to help make good use of space, and ImGui really excels in these situations where you need a menu to be responsive from the get-go, because the monitor needs to be visible a lot of the time when checking stat and ability changes in EPC's case.
 
 ### Arena Monitor
 
